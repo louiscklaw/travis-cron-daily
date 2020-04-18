@@ -12,7 +12,7 @@ before_install:
   - sudo apt-get -y install curl wget
 
 script:
-  - bash ./curl_cron.sh
+  - bash ./curl_cron.sh louiscklaw%2Fportfolio-preact
 
 env:
   global:
