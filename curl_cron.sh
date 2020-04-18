@@ -6,8 +6,8 @@ set -ex
 
 body="{
   \"request\": {
-    \"branch\":\"poc/add-dry-run-no-deploy\",
-    \"message\": \"trigger by travis-cron-daily/$TRAVIS_BRANCH\",
+    \"branch\":\"develop\",
+    \"message\": \"daily build trigger by travis-cron-daily/$TRAVIS_BRANCH\",
     \"config\": {
       \"merge_mode\": \"deep_merge\",
       \"env\": {
