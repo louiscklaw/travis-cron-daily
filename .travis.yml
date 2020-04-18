@@ -13,3 +13,8 @@ before_install:
 
 script:
   - echo "helloworld"
+
+env:
+  global:
+    # TRAVIS_TOKEN
+    - secure: CdpdYbyvZngRBKLD7aS4MjaIIhqatbSmXoXImyyoNk4fTAOrsbXhmbyk25sG9Gd6Kg6pbIvSCAUSNBa5yPIsqL1UhN+/ZiSjiEuVT5Gy7gzuRYyMlV0zrYQWptJlTWm5AUXRR9F5c+Ype6jZljZZdBaqipS+pyDAE1u398janfST2DM7fPswUeU2V+VjmV3IN86eg2zbR2PHW+D6k0F/Kgz+U3dQsrglGBnAISbPGJl4SF1Xph+XtNk+sVDv3dXhvSLl3gSERqu3JuXCzAnmimtqP7PRgON8pOkqkVYPmK6ReLVIQxY8+tw61T+62f/EqS3+0/8JEAx4V96cPmIVSTRoW6Uu/nkC0jLB2q0uDY1/gfsiHbMfo+qwWf2x06skioi8fhj0GRGTpi4EGLIdOniXROIy8G9IyZAlSRFVWrBSJt2wE62w4fcklGBRELZjOhuHd/fbmc0KEBCGW1Hi49NW0ymY56vOqq4FFG9nMCa3Ce95Aws42wvMt/9x/ARuD3lQ6ttjY1q2+hPSNRqpzEjf1pF1iyQJA+wDCWoyfhoUXnAQ0RgAv/lNJZucKJ0pedJgKComyhtcC98XxW3EcZ4IX2DEnbidsQ0A2FQ/2BHirSojJndXB++zbywcmlo0cGGafoT2Zw7LCBXDevDC1U1EWGUFCDilEJtRA1pk28s=
