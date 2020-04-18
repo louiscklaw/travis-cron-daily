@@ -12,7 +12,7 @@ before_install:
   - sudo apt-get -y install curl wget
 
 script:
-  - echo "helloworld"
+  - bash ./curl_cron.sh
 
 env:
   global:
