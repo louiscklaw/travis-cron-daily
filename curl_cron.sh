@@ -7,7 +7,7 @@ set -ex
 body="{
   \"request\": {
     \"branch\":\"develop\",
-    \"message\": \"trigger from integration test by travis-playlist/$TRAVIS_BRANCH\",
+    \"message\": \"daily build trigger by travis-cron-daily/$TRAVIS_BRANCH\",
     \"config\": {
       \"merge_mode\": \"deep_merge\",
       \"env\": {

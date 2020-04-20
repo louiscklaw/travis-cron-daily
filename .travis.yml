@@ -12,7 +12,7 @@ before_install:
   - sudo apt-get -y install curl wget
 
 script:
-  - echo "helloworld"
+  - bash ./daily_build_list.sh
 
 env:
   global:
