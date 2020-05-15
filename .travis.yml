@@ -14,6 +14,9 @@ cache:
   - npm
   - pip
 
+script:
+  - bash ./daily_build_list.sh
+
 import:
   - credentials.yml
   - .travis-merger.yml
